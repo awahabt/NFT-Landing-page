@@ -1,16 +1,17 @@
 *{
     padding: 0;
-    font-family: 'Jura', sans-serif;
+    /* font-family: 'Jura', sans-serif; */
     font-family: 'Inter', sans-serif;
     margin: 0;
-    /* background-color: #160E2A; */
+    background-color: #160E2A;
     /* background-repeat: no-repeat; */
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 #container{
     height: auto;
     width: 100%;
-    background: radial-gradient(Circle at top left, #FB03F5 8%, #2603FB 18%, #5200BA 22%, #160E2A 33%);
+    background: radial-gradient(Circle at top left, #fb03f7c9 8%, #2403fbd2 18%, #5100bab3 22%, #160e2ac8 33%);
 }
 #nav-bar{
     height: 80px;
@@ -130,7 +131,7 @@
     height: auto;
     margin-top: 60px;
     line-height: 29px;
-    font-weight: 300;
+    font-weight: 200;
 }
 #hero-text-image{
     position: relative;
@@ -150,7 +151,7 @@
 }
 #top-creator-content{
     height: auto;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,11 +168,13 @@
     height: 85px;
     width: 85px;
     border-radius: 50%;
+    display: flex;
     box-shadow: 0px 14px 15px #08013F;
     background-color: transparent;
     background: linear-gradient(to top,  #AB2FFE 60%, #5200BA );
+    align-items: center;
 }
-#top-creator p{
+#circle p{
     color: white;
     font-size: 40px;
     position: absolute;
@@ -184,4 +187,145 @@
     cursor: pointer;
     height: 80%;
     width: 80%;
+}
+#top-creator-content a{
+    text-decoration: none;
+
+}
+#top-creator-content a button{
+    padding: 10px 22px;
+    margin: 70px 0 160px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 2px solid;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to  left, #AB2FFE, #40AFFD);
+    cursor: pointer;   
+}
+
+
+
+
+
+#page3{
+    height: auto;
+    width: 100%;
+    background: radial-gradient(Circle at left, #9E89FF 10%, #80AB9E 20%, #160E2A 30%, #160E2A 70%);
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+
+}
+#collection-image img{
+    margin-left: 100px;
+}
+#collection-text {
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#collection-text-circle #circle{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 0px 14px 15px #08013F;
+    background-color: transparent;
+    background: linear-gradient(to top,  #AB2FFE 60%, #5200BA );
+    align-items: center;
+}
+#collection-text-circle #circle p{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 30px;
+    background-color: transparent;
+}
+#collection-text-txt{
+    height: auto;
+    width: 450px;
+    font-weight: 400;
+    color: #80AB9E;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+#collection-text-txt a{
+    text-decoration: none;
+}
+#collection-text-txt a button{
+    padding: 10px 22px;
+    margin: 70px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 2px solid;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to  left, #AB2FFE, #40AFFD);
+    cursor: pointer;  
+}
+
+#page4-container{
+    width: 85%;
+    height: 530px;
+    border-radius: 0 100px 100px 0;
+    border: 2px solid #AB2FFE;
+    border-left: none;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+#choose-box{
+    background: none;
+    margin-left: 100px;
+}
+#choose-box #circle{
+    margin-bottom: 50px;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 0px 14px 15px #08013F;
+    background-color: transparent;
+    background: linear-gradient(to top,  #AB2FFE 60%, #5200BA );
+    align-items: center;
+}
+#choose-box #circle p{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 30px;
+    background-color: transparent;
+}
+#choose-box-text{
+    background: none;
+    height: auto;
+    width: 340px;
+}
+#choose-box-text p{
+    background: none;
+    color: #80AB9E;
+    font-weight: 300;
+}
+#display-image{
+    height: 300px;
+    width: 300px;
+    background: none;
+}
+#image-1{
+    height: 200px;
+    width: 240px;
+    backdrop-filter: blur(25px);
+    background: rgba(37, 37, 37, 0.363);
+    border-radius: 15px;
+    border: 1px solid gray;
 }
