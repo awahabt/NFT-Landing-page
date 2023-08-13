@@ -543,7 +543,8 @@
     background: #0D0819;
     display: flex;
     flex-wrap: wrap;
-
+    margin-top: 80px;
+    gap: 100px;
 }
 
 
@@ -552,6 +553,7 @@
 
 #web-reference{
     background: #0D0819;
+    margin-left: 80px;
 }
 #logo-2{
     background: #0D0819;
@@ -562,7 +564,8 @@
 }
 #web-logo-para{
     background: #0D0819;
-
+    width: 565px;
+    margin-top: 50px;
 }
 #web-logo-para p{
     background: #0D0819;
@@ -570,9 +573,121 @@
 }
 #web-scoial-media-handles{
     background: #0D0819;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 100px;
 }
-#web-scoial-media-handles img{
+#web-scoial-media-handles div{
     background: #0D0819;
-    margin-right: 30px;
-    height: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#web-scoial-media-handles div #ellipse{
+    background: #0D0819;
+    height: 45px;
+}
+#web-scoial-media-handles div #social-media-icons-logo-1{
+    background: none;
+    position: relative;
+    height: 25px;
+    top: -10px;
+    left: -36px;
+}
+#web-scoial-media-handles div #social-media-icons-logo-2{
+    background: none;
+    position: relative;
+    height: 25px;
+    top: -9px;
+    left: -31px;
+}
+#web-scoial-media-handles div #social-media-icons-logo-3{
+    background: none;
+    position: relative;
+    height: 22px;
+    top: -11px;
+    left: -35.5px;
+}
+#web-scoial-media-handles div #social-media-icons-logo-4{
+    background: none;
+    position: relative;
+    height: 18px;
+    top: -12px;
+    left: -35px;
+}
+
+
+
+#website-link{
+    background: #0D0819;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 80px;
+    height: auto;
+}
+#website-link-box{
+    background: #0D0819;
+    height: 325px;
+    width: 200px;
+}
+#website-link-box-div-1{
+    background: #0D0819;
+    margin-bottom: 60px;
+}
+#website-link-box-div-1 p{
+    background: #0D0819;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#website-link-box-div-2{
+    background: #0D0819;
+}
+#website-link-box-div-2 a{
+    text-decoration: none;
+    color: white;
+}
+#website-link-box-div-2 p{
+    background: #0D0819;
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 380;
+    margin-left: 5px;
+}
+
+
+#copywrite{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #0D0819;
+    color: #545C71;
+    font-size: 20px;
+    font-weight: 530;
+    margin-top: 50px;
+    
+}
+#copywrite-box-1{
+    background: #0D0819;
+    padding: 30px 80px;
+
+}
+#copywrite-box-1 p{
+    background: #0D0819;
+}
+#copywrite-box-2{
+    background: #0D0819;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px 80px;
+}
+#copywrite-box-2 p{
+    background: #0D0819;
 }
